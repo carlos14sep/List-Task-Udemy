@@ -37,6 +37,7 @@ const Login = (props) => {
     const login = React.useCallback(async () => {
         try{
             const res =await auth.signInWithEmailAndPassword(email, pass)
+            // validar usuarios
             console.log(res.user)
             setEmail('')
             setPass('')
@@ -58,6 +59,7 @@ const Login = (props) => {
     const registrar = React.useCallback(async () => {
         try {
             const res = await auth.createUserWithEmailAndPassword(email, pass)
+        // crear un usuario
             console.log(res.user)
             db.collection('usuarios').doc(res.user.email).set({
                 email: res.user.email,

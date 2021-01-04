@@ -12,7 +12,8 @@ const Admin = (props) => {
             setUser(auth.currentUser)
         } else {
             console.log('Usuario no existe')
-            props.history.push('/login')
+            props.history.push('/login') 
+        // Para poder acceder a otra direccion o pagina
         }
     },[props.history])
     return (
@@ -28,3 +29,4 @@ const Admin = (props) => {
 }
 
 export default withRouter(Admin)
+// se utiliza para acceder a otra pagina nabvar que esta en app
