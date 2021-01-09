@@ -3,8 +3,8 @@ import {auth, db} from "../firebase"
 import { withRouter } from "react-router-dom"
 
 const Login = (props) => {
-    const [email, setEmail] = React.useState('')
-    const [pass, setPass] = React.useState('')
+    const [email, setEmail] = React.useState('prueba@prueba.com')
+    const [pass, setPass] = React.useState('123123')
     const [error, setError] = React.useState(null)
     const [esRegistro, setEsRegistro] = React.useState(true)
 
@@ -65,10 +65,16 @@ const Login = (props) => {
                 email: res.user.email,
                 uid: res.user.uid
             })
+        // limpiar los imput
+        await db.collection(res.user.uid).add({
+            name: 'Tarea de ejemplo',
+            fecha: Date.now()
+        })
             setEmail('')
             setPass('')
             setError(null)
             props.history.push('/admin')
+        // Control de errores
         } catch (error){
             console.log (error)
             if(error.code === 'auth/invalid-email'){

@@ -1,6 +1,7 @@
 import React from 'react'
 import { withRouter } from "react-router-dom"
 import {auth} from "../firebase"
+import Firestore from './Firestore'
 
 const Admin = (props) => {
 
@@ -21,7 +22,7 @@ const Admin = (props) => {
             <h3>Ruta protegida</h3>
             {
                 user && (
-                    <h3>{user.email}</h3>
+                    <Firestore user={user}  />
                 )
             }
         </div>
