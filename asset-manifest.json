@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/List-Task-Udemy/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/List-Task-Udemy/static/js/main.2eb9b17b.chunk.js",
-    "main.js.map": "/List-Task-Udemy/static/js/main.2eb9b17b.chunk.js.map",
+    "main.js": "/List-Task-Udemy/static/js/main.454c5671.chunk.js",
+    "main.js.map": "/List-Task-Udemy/static/js/main.454c5671.chunk.js.map",
     "runtime-main.js": "/List-Task-Udemy/static/js/runtime-main.81156858.js",
     "runtime-main.js.map": "/List-Task-Udemy/static/js/runtime-main.81156858.js.map",
-    "static/js/2.24002b68.chunk.js": "/List-Task-Udemy/static/js/2.24002b68.chunk.js",
-    "static/js/2.24002b68.chunk.js.map": "/List-Task-Udemy/static/js/2.24002b68.chunk.js.map",
+    "static/js/2.7fc5d4cc.chunk.js": "/List-Task-Udemy/static/js/2.7fc5d4cc.chunk.js",
+    "static/js/2.7fc5d4cc.chunk.js.map": "/List-Task-Udemy/static/js/2.7fc5d4cc.chunk.js.map",
     "index.html": "/List-Task-Udemy/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/List-Task-Udemy/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.24002b68.chunk.js.LICENSE.txt": "/List-Task-Udemy/static/js/2.24002b68.chunk.js.LICENSE.txt"
+    "static/js/2.7fc5d4cc.chunk.js.LICENSE.txt": "/List-Task-Udemy/static/js/2.7fc5d4cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.81156858.js",
-    "static/js/2.24002b68.chunk.js",
+    "static/js/2.7fc5d4cc.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.2eb9b17b.chunk.js"
+    "static/js/main.454c5671.chunk.js"
   ]
 }
